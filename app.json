@@ -2,8 +2,8 @@
 
 
 {
-  "name":"BWM-XMD",
-  "description":"Best whatsapp bot developed by Ibrahim adams",
+  "name":"VIRUSI-XMD",
+  "description":"Best whatsapp bot developed by VIRUSI MBAYA",
   "keywords":["bot","node","baileys","whatsapp"],
   "logo":"https://files.catbox.moe/h2ydge.jpg",
   "repository":"https://github.com/ekitale/maths-project",
@@ -25,7 +25,7 @@
 "ANTILINK_GROUP":
     {
       "description":"Enter yes for your bot to auto delete links and remove link senders",
-      "value":"no",
+      "value":"yes",
       "required":false
     },
 "MENUTYPE":
@@ -67,7 +67,7 @@
 "AUTO_BIO":
     {
       "description":"Enter yes for your bot to auto bio or no to decline",
-      "value":"yes",
+      "value":"no",
       "required":false
     },
 
@@ -98,7 +98,7 @@
     "BOT_NAME" : {
        
       "description":"put A name for your bot",
-      "value":"BWM-XMD",
+      "value":"VIRUSI-MD",
       "required":false
 
     } ,
@@ -112,17 +112,17 @@
     "PUBLIC_MODE":
     {
       "description":"type yes to put your bot on public mode or no to put it on private mod",
-      "value":"yes",
+      "value":"no",
       "required":false
     }
 	,
     "HEROKU_API_KEY": {
     "description": "Insert your heroku api-key copy it from your heroku account settings",
-     "required" :true 
+     "required" :false 
     },
   "HEROKU_APP_NAME": {
     "description": "Insert your heroku APP NAME enter same as the app name exactly, the fast name up there ",
-     "required" :true 
+     "required" :false 
     }  
 	  ,
     "NUMERO_OWNER":
@@ -138,7 +138,7 @@
     
     "desc": "Owner name",
     "required": false,
-    "value": "𝐈𝐛𝐫𝐚𝐡𝐢𝐦 𝐀𝐝𝐚𝐦𝐬"
+    "value": "VIRUSI"
   },
     "SESSION_ID":{
     "description":"put your session ID , the code you received from from ibrahim adams site",   
@@ -149,13 +149,13 @@
   {
     "desc": "this is the limit of warn for warning commandes",
     "required": false,
-    "value": "3"
+    "value": "1"
   },
   "STARTING_BOT_MESSAGE":
   {
     "description": "if you don't want startting-bot-message put no else put yes",
     "required": true,
-    "value": "yes"
+    "value": "no"
   },
   "PRESENCE":{
     "description":"Mark your presence: 1 to indicate that you are online even if you are not. 2 to indicate that you are currently typing a message. 3 to indicate that you are currently recording an audio. Or leave the field blank to indicate your real state.",
